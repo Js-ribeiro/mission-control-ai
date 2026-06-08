@@ -1,6 +1,4 @@
 
-import numpy as np
-import pandas as pd
 
 dados_missao = [
     [24, 92, 88, 96, 90],  
@@ -183,7 +181,7 @@ def classificacao_de_ciclos():
 
         temperatura_at = eval(temperatura_at)
 
-        # condicoes da temperatura
+       
 
         if temperatura_at < 18:
 
@@ -507,7 +505,7 @@ def classificacao_de_ciclos():
 
 classificacao_de_ciclos()
 
-# final
+
 
 print(50 * "==")
 print("RELATÓRIO FINAL DA MISSAO ")
@@ -544,8 +542,8 @@ def pontuacao():
     print(f"temperatura interna:{st}")
     print(f"comunicacao com a base: {sc}")
     print(f"Sistema de energia :{sb}")
-    print(f"suporte ao a oxigenio :{so}")
-    print(f"estabiidade operacional :{se}")
+    print(f"suporte ao  oxigenio :{so}")
+    print(f"estabilidade operacional :{se}")
 
     Alta_pontuacao = max(pontucao, key=pontucao.get)
 
@@ -583,8 +581,8 @@ if primeiro_cilco == "estavel" and segundo_cilco == "Atencao":
     print(
         "Atencao tivemos a piora consideravel do andamento da missao , "
         "recomendamos o preparo do plano reserva . "
-        "Precissamos que todos os tripulantes estejam de prontidão caso "
-        "a sistuacao venha a piorar ainda mais "
+        "Precisamos que todos os tripulantes estejam de prontidão caso "
+        "a situacao venha a piorar ainda mais "
     )
 
 if primeiro_cilco == "estavel" and segundo_cilco == "critico":
@@ -600,7 +598,7 @@ if primeiro_cilco == "estavel" and segundo_cilco == "critico":
     print("Conclusao")
 
     print(
-        "Missao em estado critico , recomendamos a utiizacao do plano "
+        "Missao em estado critico , recomendamos a utilizacao do plano "
         "reserva de forma imediato para preservacao de vidas."
         "Precissamos que todos os tripulantes sigam o protocolo a risca "
         "para que todos consigam sobreviver e realizar suas funcoes "
