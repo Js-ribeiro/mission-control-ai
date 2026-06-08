@@ -37,7 +37,7 @@ Pré-requisitos -  Certifique-se de ter o Python 3.x instalado em sua máquina.
    python mission_control.py
    ```
 
-Dados da Missão Avaliada 
+Dados da Missão Avaliada <br>
 Nome da Missão: Alpha Saturno <br>
 Equipe de Controle: 101 <br>
 6 Ciclos Analisados<br>
